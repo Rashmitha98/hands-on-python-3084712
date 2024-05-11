@@ -1,6 +1,7 @@
 greet = "Hello World"
-extened_grt = "Hello World, " + "this is a long string"
+extened_grt = f{greet} + "this is a long string"
 
+print(extened_grt)
 name = "John"
 
 intrupution = f"Hello {name}"
